@@ -13,7 +13,7 @@ namespace ShibaGTGenesisReborn.Mods
     {
         public static void GhostMonke()
         {
-            if (InputHandler.Instance.LeftPrimary.IsPressed)
+            if (InputHandler.Instance.RightPrimary.IsPressed)
             {
                 GorillaTagger.Instance.offlineVRRig.enabled = false;
                 VRRig.LocalRig.enabled = false;

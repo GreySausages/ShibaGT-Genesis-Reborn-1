@@ -9,7 +9,7 @@ namespace Loading
         {
             GameObject go = new GameObject("Load");
             UnityEngine.Object.DontDestroyOnLoad(go);
-            go.AddComponent<Breeze.HarmonyPatches>();
+            go.AddComponent<ShibaGTGenesisReborn.Plugin>();
         }
     }
 }
